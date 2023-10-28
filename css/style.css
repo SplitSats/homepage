@@ -18,7 +18,7 @@
 - 5.3 Divider
 6. Landing Page Sections
 - 6.1 Features
-- 6.2 Testimonials
+- 6.2 Team
 - 6.3 Gallery
 - 6.4 Video
 - 6.5 Clients
@@ -189,7 +189,7 @@ section {
 .row {
     max-width: 1245px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 50px 0;
     position: relative;
 }
 
@@ -239,11 +239,14 @@ section {
 }
 
 .col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 33.33%;
 }
 
 .col-4 {
-    width: 25%;
+    width: 100%;
 }
 
 .col-5 {
@@ -279,6 +282,7 @@ section {
 }
 
 .col-2-3 {
+    display: flex;
     width: 66.66%;
 }
 
@@ -665,7 +669,8 @@ nav#nav-mobile a:hover {
 }
 
 .social-icons {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     list-style: none;
 }
 
@@ -726,7 +731,7 @@ h2 {
 }
 
 h3 {
-    padding: 10px 0;
+    padding: 10px 0 0;
 }
 
 h4 {
@@ -758,7 +763,7 @@ h6 {
 /* Section Headings */
 
 .section-heading {
-    padding: 0 0 15px 0;
+    padding: 0;
 }
 
 .section-subtitle {
@@ -767,9 +772,9 @@ h6 {
 }
 
 .section-heading h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    color: #ccc;
+    color: #000;
     letter-spacing: 2px;
     padding-bottom: 0;
 }
@@ -783,7 +788,7 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -924,9 +929,9 @@ h6 {
     clear: both;
 }
 
-/* --------- 6.3 Testimonials ---------- */
+/* --------- 6.3 Team ---------- */
 
-.testimonial {
+.team {
     padding: 15px;
 }
 
@@ -934,27 +939,27 @@ blockquote {
     position: relative;
 }
 
-.testimonial img {
+.team img {
     max-height: 120px;
     border-radius: 250em;
 }
 
-.testimonial footer {
+.team footer {
     padding-top: 12px;
 }
 
-/* Style Classic - Avatar above Testimonial */
+/* Style Classic - Avatar above team */
 
-.testimonial.classic img {
+.team.classic img {
     display: inline-block;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
-.testimonial.classic q {
+.team.classic q {
     display: block;
 }
 
-.testimonial.classic footer:before {
+.team.classic footer:before {
     display: block;
     content: "";
     width: 30px;
@@ -962,13 +967,19 @@ blockquote {
     margin: 10px auto 15px auto;
 }
 
+.teambox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* Style Big */
 
-.testimonial.bigtest {
+.team.bigtest {
     padding-top: 0;
 }
 
-.testimonial.bigtest q {
+.team.bigtest q {
     font-size: 22px;
 }
 
@@ -1510,7 +1521,6 @@ blockquote {
 
 #landing-footer ul {
     list-style: none;
-    text-align: right;
 }
 
 #landing-footer li {
