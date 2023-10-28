@@ -99,7 +99,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 .text-center .section-heading h2:after {
-    margin:30px auto 25px auto;
+    margin:30px auto 0;
 }
 
 .section-title h3:after {
@@ -149,7 +149,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:15px;
+    font-size:20px;
     font-weight:normal;
     color:#111;
 }
@@ -166,8 +166,8 @@ body {
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:18px;
-    font-weight:300;
+    font-size:20px;
+    font-weight:normal;
     color:#111;
 }
 
@@ -197,6 +197,8 @@ body {
 }
 
 .team.classic q, .team.classic footer {
+    font-size: 15px;
+    font-weight: 700;
     color:#111;
 }
 
@@ -227,7 +229,7 @@ h3 {
 
 h4 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 18px; 
+    font-size: 28px; 
     font-weight:400;
     color:#111;
 }
@@ -287,7 +289,7 @@ h6 {
 #banner .button {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:16px;
-    color:#0F172A;
+    color:#0f172a;
 }
 
 
