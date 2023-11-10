@@ -965,6 +965,11 @@ blockquote {
     padding-top: 12px;
 }
 
+.partner img {
+    max-height: 120px;
+    /* border-radius: 250em; */
+}
+
 /* Style Classic - Avatar above team */
 
 .team.classic img {
