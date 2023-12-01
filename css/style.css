@@ -260,7 +260,10 @@ section {
 }
 
 .col-6 {
-    width: 16.6666666667%;
+    width: 100%;
+    text-align: center;
+    background-color: #0F172A;
+    border-radius: 40px;
 }
 
 .col-7 {
@@ -310,6 +313,22 @@ section {
 
 .col-38 {
     width: 38.2%;
+}
+
+.vote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vote p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.vote h4 {
+    color: #fff;
 }
 
 /* --------- 2.1 Header --------- */
@@ -402,6 +421,15 @@ section {
     -moz-transition: all .3s linear;
     transition: all .3s linear;
     display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.vote .button {
+    font-size: 22px;
+    margin: 0;
+    color: #fff;
+    border-radius: 20px;
     border-width: 3px;
     border-style: solid;
 }
@@ -842,6 +870,7 @@ h6 {
 }
 
 .icon-block h4 {
+    font-variant: small-caps;
     font-weight: bold;
     padding-top: 0;
 }
